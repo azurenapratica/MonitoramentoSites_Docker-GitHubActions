@@ -59,7 +59,7 @@ namespace MonitoramentoSites
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _logger.LogInformation("Azure na Pratica - 2o. dia.");
+            _logger.LogInformation("Azure na Pratica - 2o. dia...");
             while (!stoppingToken.IsCancellationRequested)
             {
                 _logger.LogInformation("Process Id: {id} - Worker executando em: {time}",
